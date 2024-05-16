@@ -8,6 +8,7 @@ function billingCheck(){
         document.querySelector("#home").disabled = true
     } else {
         document.querySelector("#home").disabled = false
+        document.querySelector("#home").value = ""
     }
     var home = document.querySelector("#home")
 
